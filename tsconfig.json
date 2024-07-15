@@ -1,0 +1,30 @@
+{
+  
+    "compilerOptions": {
+      "target": "ES2022",
+      "useDefineForClassFields": false,
+      "module": "esnext",
+      "moduleResolution": "node",
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "resolveJsonModule": true,
+      "skipLibCheck": true,
+      "strict": true,
+      "noImplicitAny": true,
+      "noImplicitThis": true,
+      "noImplicitReturns": true,
+      "noFallthroughCasesInSwitch": true,
+      "strictPropertyInitialization": false,
+      "lib": ["es2022", "dom"],
+      "baseUrl": "./",
+      "paths": {
+        "@/*": ["src/app/*"]
+      }
+    }
+  ,
+  "angularCompilerOptions": {
+    "enableIvy": true,
+    "fullTemplateTypeCheck": true,
+    "strictInjectionParameters": true
+  }
+}
